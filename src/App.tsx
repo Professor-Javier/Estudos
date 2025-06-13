@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import TodoItem from "./components/TodoItem";
-import { FiCheck, FiTrash2 } from "react-icons/fi";
 
 interface Tarefa {
   id: number;
